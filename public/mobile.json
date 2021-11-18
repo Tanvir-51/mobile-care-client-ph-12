@@ -1,0 +1,73 @@
+[
+    {
+        "id": "1",
+        "name": "Apple iPhone 13",
+        "description": "The iPhone 13 features a new A15 Bionic chip, an OLED display, 128GB of internal storage, and compatibility with all 5G networks.",
+        "img": "https://cdn.vox-cdn.com/thumbor/AkCm3URHtoZV3R5JDjHPjq-ZLoU=/0x0:2019x1346/400x400/filters:focal(1004x1140:1005x1141):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/22863269/vpavic_210916_4760_0069.jpg",
+        "price": 829
+    },
+    {
+        "id": "2",
+        "name": "Google Pixel 6",
+        "description": "It features the Google Tensor CPU, 8GB of RAM, and a rear camera with both 50 megapixels for its main wide-angle and 12 megapixels for its ultrawide.",
+        "img": "https://cdn57.androidauthority.net/wp-content/uploads/2021/10/Google-Pixel-6-and-Pixel-6-Pro-rear-panels.jpg",
+        "price": 599
+    },
+    {
+        "id": "3",
+        "name": " Apple iPhone 13 Pro ",
+        "description": "The 13 Pro has a physically larger camera sensor compared to prior models that allows its main 12-megapixel camera to gather more light and produce better-quality images.",
+        "img": "https://cellbuddy.in/wp-content/uploads/2021/09/Apple-iPhone-13-Pro-Smartphones-491997730-i-1-1200Wx1200H.jpeg",
+        "price": 929
+    },
+    {
+        "id": "4",
+        "name": "Asus Zenfone 8",
+        "description": "For small-phone Android fans, the Asus Zenfone 8 is the perfect fit. It has a relatively tiny 5.9-inch display, 8GB of RAM, 128GB of storage",
+        "img": "https://m.media-amazon.com/images/I/618tpAV9SES._AC_SL1280_.jpg",
+        "price": 649
+    },
+    {
+        "id": "5",
+        "name": " Samsung Galaxy Note 20 Ultra",
+        "description": "The Galaxy Note 20 Ultra is one of Samsung’s top-tier non-folding phones, and it has excellent battery life.The Note 20 Ultra is a high-end phone in every other respect.",
+        "img": "https://www.mytrendyphone.eu/images/Spigen-Ultra-Hybrid-Case-for-Galaxy-Note20-Ultra-Crystal-Clear-07082020-01-p.jpg",
+        "price": 1153
+    },
+    {
+        "id": "6",
+        "name": " Samsung Galaxy Z Flip 3",
+        "description": "Samsung’s Galaxy Z Flip 3 is a foldable phone with a non-foldable price tag. The unique, water-resistant device comes with a Qualcomm Snapdragon 888 processor and 120Hz display, as well as 5G support.",
+        "img": "https://i.gadgets360cdn.com/large/galaxy_z_flip_3_main_letsgodigital_1620391917550.jpg?downsize=950:*",
+        "price": 925
+    },
+    {
+        "id": "7",
+        "name": "TCL 20S",
+        "description": "A $250 phone can be a delight to use, too. This TCL 20S has a bright 6.67-inch 1080p screen, 128GB storage, and a 5,000mAh battery.",
+        "img": "https://www.detailslibrary.com/wp-content/uploads/2021/07/TCL-20S.jpg",
+        "price": 250
+    },
+    {
+        "id": "8",
+        "name": " Google Pixel 5A",
+        "description": "You won’t find any bells and whistles like a big, fast refresh rate screen, but the Pixel 5A does the basics very well with IP67 water resistance, a great camera, and timely software updates.",
+        "img": "https://www.androidcentral.com/sites/androidcentral.com/files/styles/large_wm_brw/public/article_images/2020/10/google-pixel-5-hands-on-15.jpg",
+        "price": 449
+    },
+    {
+        "id": "9",
+        "name": " Samsung Galaxy Z Fold 3",
+        "description": "The Galaxy Z Fold 3 is Samsung’s latest attempt at making foldable phones more mainstream. It’s expensive, sure, but it’s also more durable than previous models",
+        "img": "https://cdn.vox-cdn.com/thumbor/Zx5smI35xXZTl_gkxbCnJ_pA2Hw=/0x0:2040x1360/400x400/filters:focal(1020x680:1021x681):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/22801025/dbohn_210820_4722_0002.jpg",
+        "price": 1500
+    },
+    {
+        "id": "10",
+        "name": "Xiaomi Poco F3",
+        "description": "The Poco F3 is one of the hottest surprises this season. It's a proper flagship-killer, the catchy name behind all those overqualified mid-ranges.",
+        "img": "https://www.techinn.com/f/13810/138107444_2/xiaomi-poco-f3-5g-6gb-128gb-6.67-smartphone.jpg",
+        "price": 400
+    }
+       
+]

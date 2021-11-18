@@ -1,0 +1,7 @@
+.footer-container {
+  background-image: url("./footer-bg.webp");
+  color: #fff;
+  padding: 50px;
+  margin-top: 10px;
+  text-align: center;
+}
