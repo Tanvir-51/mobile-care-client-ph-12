@@ -5,7 +5,7 @@ const useCar = () => {
   const [isLoadingCar, setIsLoadingCar] = useState(true);
   //''
   useEffect(() => {
-    fetch("http://localhost:5000/services/car")
+    fetch("http://localhost:5000/services/mobile")
       .then((resp) => resp.json())
       .then((data) => {
         setCar(data);
