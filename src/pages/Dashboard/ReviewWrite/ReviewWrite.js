@@ -22,16 +22,18 @@ const ReviewWrite = () => {
       user?.photoURL ||
       " https://cdn.imgbin.com/6/25/24/imgbin-user-profile-computer-icons-user-interface-mystique-aBhn3R8cmqmP4ECky4DA3V88y.jpg ";
     //console.log(data);
-    axios.post("http://localhost:5000/submitReview", data).then((res) => {
-      if (res.data.insertedId) {
-        swal({
-          title: "Your Review is successfully submitted",
-          icon: "success",
-          button: "Ok",
-        });
-        reset();
-      }
-    });
+    axios
+      .post("https://mobile-care-tanvir.herokuapp.com/submitReview", data)
+      .then((res) => {
+        if (res.data.insertedId) {
+          swal({
+            title: "Your Review is successfully submitted",
+            icon: "success",
+            button: "Ok",
+          });
+          reset();
+        }
+      });
   };
   //console.log(rating);
   const visibile = {

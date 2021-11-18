@@ -12,23 +12,25 @@ const AddService = () => {
   } = useForm();
   const onSubmit = (data) => {
     //console.log(data);
-    axios.post("http://localhost:5000/addService", data).then((res) => {
-      if (res?.data === "already have this id") {
-        swal({
-          title: "A entry is already inserted with this ID in the Database!",
-          icon: "error",
-          buttons: true,
-          dangerMode: true,
-        });
-      } else if (res?.data?.insertedId) {
-        swal({
-          title: "The Service is successfully added",
-          icon: "success",
-          button: "Ok",
-        });
-        reset();
-      }
-    });
+    axios
+      .post("https://mobile-care-tanvir.herokuapp.com/addService", data)
+      .then((res) => {
+        if (res?.data === "already have this id") {
+          swal({
+            title: "A entry is already inserted with this ID in the Database!",
+            icon: "error",
+            buttons: true,
+            dangerMode: true,
+          });
+        } else if (res?.data?.insertedId) {
+          swal({
+            title: "The Service is successfully added",
+            icon: "success",
+            button: "Ok",
+          });
+          reset();
+        }
+      });
   };
   const visibile = {
     visibility: "visible",

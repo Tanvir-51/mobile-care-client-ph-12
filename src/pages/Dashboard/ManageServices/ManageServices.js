@@ -17,7 +17,7 @@ const ManageServices = () => {
       dangerMode: true,
     }).then((x) => {
       if (x) {
-        fetch(`http://localhost:5000/deleteService/${id}`, {
+        fetch(`https://mobile-care-tanvir.herokuapp.com/deleteService/${id}`, {
           method: "delete",
         })
           .then((res) => res.json())

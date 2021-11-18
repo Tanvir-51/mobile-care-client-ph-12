@@ -13,7 +13,7 @@ const MakeAdmin = () => {
   } = useForm();
   const onSubmit = (data) => {
     //console.log(data);
-    fetch("http://localhost:5000/users/admin", {
+    fetch("https://mobile-care-tanvir.herokuapp.com/users/admin", {
       method: "PUT",
       headers: {
         authorization: `Bearer ${token}`,

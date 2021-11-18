@@ -17,16 +17,18 @@ const PurchaseService = () => {
   const onSubmit = (data) => {
     data.product = serviceId;
     data.status = "Pending";
-    axios.post("http://localhost:5000/placeOrder", data).then((res) => {
-      if (res.data.insertedId) {
-        swal({
-          title: "Your Order is Placed. Check Dashboard/My-Order",
-          icon: "success",
-          button: "Ok",
-        });
-        reset();
-      }
-    });
+    axios
+      .post("https://mobile-care-tanvir.herokuapp.com/placeOrder", data)
+      .then((res) => {
+        if (res.data.insertedId) {
+          swal({
+            title: "Your Order is Placed. Check Dashboard/My-Order",
+            icon: "success",
+            button: "Ok",
+          });
+          reset();
+        }
+      });
   };
   //console.log(errors)
   const visibile = {

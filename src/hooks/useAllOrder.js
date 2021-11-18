@@ -8,7 +8,7 @@ const useAllOrder = () => {
   useEffect(() => {
     if (!isLoading && token) {
       //console.log(isLoading, token);
-      fetch(`http://localhost:5000/orders`, {
+      fetch(`https://mobile-care-tanvir.herokuapp.com/orders`, {
         headers: {
           authorization: `Bearer ${token}`,
         },
@@ -26,7 +26,10 @@ const useAllOrder = () => {
             const ids = [iterator.product];
             //console.log('ids ', ids);
             axios
-              .post("http://localhost:5000/service/byId", ids)
+              .post(
+                "https://mobile-care-tanvir.herokuapp.com/service/byId",
+                ids
+              )
               .then((res) => {
                 //console.log(res.data)
                 iterator.items = res.data;

@@ -19,7 +19,7 @@ const ManageAllOrder = () => {
     }).then((x) => {
       if (x) {
         if (desiredStatus.status === "Delete") {
-          fetch(`http://localhost:5000/deleteOrder/${id}`, {
+          fetch(`https://mobile-care-tanvir.herokuapp.com/deleteOrder/${id}`, {
             method: "delete",
           })
             .then((res) => res.json())
@@ -47,7 +47,7 @@ const ManageAllOrder = () => {
             }
             return x;
           });
-          fetch(`http://localhost:5000/updateOrder/${id}`, {
+          fetch(`https://mobile-care-tanvir.herokuapp.com/updateOrder/${id}`, {
             method: "put",
             headers: {
               "content-type": "application/json",

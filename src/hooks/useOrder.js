@@ -9,11 +9,14 @@ const useOrder = () => {
 
   useEffect(() => {
     if (!isLoading && token) {
-      fetch(`http://localhost:5000/myOrder?email=${user.email}`, {
-        headers: {
-          authorization: `Bearer ${token}`,
-        },
-      })
+      fetch(
+        `https://mobile-care-tanvir.herokuapp.com/myOrder?email=${user.email}`,
+        {
+          headers: {
+            authorization: `Bearer ${token}`,
+          },
+        }
+      )
         .then((res) => res.json())
         .then((data) => {
           //data holds all orders of a user [array]
@@ -25,7 +28,10 @@ const useOrder = () => {
             const ids = [iterator.product];
             //console.log('ids ', ids);
             axios
-              .post("http://localhost:5000/service/byId", ids)
+              .post(
+                "https://mobile-care-tanvir.herokuapp.com/service/byId",
+                ids
+              )
               .then((res) => {
                 iterator.items = res.data;
               });
