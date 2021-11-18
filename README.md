@@ -4,6 +4,8 @@ Live-site: https://mobile-care-438c0.web.app/
 
 ## Description
 
+The website is about a mobile shop with all the latest brands and specifications. Customers can buy devices of their liking and pay through the website.
+
 - This is the website of a Mobile selling store.
 - In this website, the products offered by the company are listed.
 - A user can create account using his Gmail or Email & Password.
