@@ -14,5 +14,4 @@ The website is about a mobile shop with all the latest brands and specifications
 - There are different dashboards for Admin and Normal user.
 - User can Buy a mobile, Delete a mobile from his ordered one and Write review as well.
 - The PrivateRoute is visible to both admin and user.
-- The AdminRoute is visible to admin only
-- 
+- The AdminRoute is visible to admin only.
